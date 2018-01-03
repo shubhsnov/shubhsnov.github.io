@@ -25,48 +25,49 @@
 -->
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<title>Brackets - Page Not Found (404)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Brackets - Page Not Found (404)</title>
 
-	<link rel="stylesheet" href="./css/normalize.css" />
-	<link rel="stylesheet" href="./css/foundation.min.css" />
-	<link rel="stylesheet" href="./css/brackets.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/foundation.min.css" />
+    <link rel="stylesheet" href="./css/brackets.css" />
 
-	<!-- Linked Favicon -->
-	<link rel="shortcut icon" href="favicon.ico" />
-	<!-- Linked Web font -->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	<!-- This needs to be at the top, not at the bottom like the other JS. Source Sans Pro - Light, Regular, Italic, Semibold -->
-	<script src="//use.edgefonts.net/source-sans-pro:n3,n4,n6,i3,i4;source-code-pro:n4.js"></script>
+    <!-- Linked Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Linked Web font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- This needs to be at the top, not at the bottom like the other JS. Source Sans Pro - Light, Regular, Italic, Semibold -->
+    <script src="//use.edgefonts.net/source-sans-pro:n3,n4,n6,i3,i4;source-code-pro:n4.js"></script>
 
-	<!-- These stop FOUT -->
-	<style type="text/css">
-		.wf-loading h1,
-		.wf-loading h2,
-		.wf-loading h3,
-		.wf-loading h4,
-		.wf-loading h5,
-		.wf-loading h6,
-		.wf-loading p,
-		.wf-loading a {
-			visibility: hidden;
-		}
-	</style>
+    <!-- These stop FOUT -->
+    <style type="text/css">
+        .wf-loading h1,
+        .wf-loading h2,
+        .wf-loading h3,
+        .wf-loading h4,
+        .wf-loading h5,
+        .wf-loading h6,
+        .wf-loading p,
+        .wf-loading a {
+            visibility: hidden;
+        }
 
-	<link rel="shortcut icon" href="/favicon.ico" />
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body class="background-body">
-	<!-- Header Section -->
-	<header>
+    <!-- Header Section -->
+    <header>
         <div class="row">
             <div class="large-12 columns">
                 <div class="logo">
                     <a href="index.html"><i></i>Brackets</a>
                 </div>
-                
+
                 <div class="nav">
                     <div class="nav-right">
                         <a title="Download latest Brackets" id="download-plain-brackets" class="action-download-brackets" href="#">
@@ -84,11 +85,11 @@
                         <a href="https://github.com/adobe/brackets/wiki/Troubleshooting" data-i18n="nav.support">Support</a>
                     </div>
                 </div>
-                
+
                 <div class="collapsed-menu">
                     <a><i class="hamburger"></i></a>
                 </div>
-                
+
                 <div class="nav-user">
                     <div class="nav-button">
                         <a title="Download latest Brackets" id="download-plain-brackets" class="action-download-brackets" href="#">
@@ -102,21 +103,21 @@
         </div>
     </header>
 
-	<!-- Hero Section -->
-	<section>
-		<div id="hero-wrapper">
-			<div id="hero" class="row">
-				<div class="large-12 large-centered columns">
-					<h1><i class="error"></i><br>You found our 404 page!</h1>
-					<p>Check if you have the right URL or go to the <a href="/">Homepage</a>.</p>
-				</div>
-			</div>
-		</div>
+    <!-- Hero Section -->
+    <section>
+        <div id="hero-wrapper">
+            <div id="hero" class="row">
+                <div class="large-12 large-centered columns">
+                    <h1><i class="error"></i><br>You found our 404 page!</h1>
+                    <p>Check if you have the right URL or go to the <a href="/">Homepage</a>.</p>
+                </div>
+            </div>
+        </div>
         <div class="top-bottom-margin"></div>
-	</section>
+    </section>
 
-	<!-- Footer Section -->
-	<footer>
+    <!-- Footer Section -->
+    <footer>
         <div class="row">
             <div class="small-12 medium-6 large-3 columns">
                 <h5 class="logo-footer">
@@ -233,17 +234,33 @@
     </footer>
 
     <script src="js/vendor/custom.modernizr.js"></script>
-	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/i18next.min.js"></script>
-	<script src="js/foundation.min.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/load.i18next.js"></script>
-	<script src="js/youtube-modal.js"></script>
+    <script src="js/youtube-modal.js"></script>
     <script src="js/download.js"></script>
     <script>
-		$(document).foundation();
+        $(document).foundation();
+        
+        $(document).ready(function() {
+            adjustFooter();
+            $(window).resize(function() {
+                adjustFooter();
+            });
+        });
 
-	</script>
+        function adjustFooter() {
+            if ($("footer").offset().top + $("footer").height() < window.innerHeight) {
+                var topPos = window.innerHeight - $("footer").height();
+                $("footer").css('position', 'absolute');
+                $("footer").css('width', '100%');
+                $("footer").css('top', topPos + 'px');
+            }
+        }
+
+    </script>
 </body>
 
 </html>
