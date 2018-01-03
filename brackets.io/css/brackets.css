@@ -1,0 +1,2113 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\000031}}
+button, .button, .reversed-button, .border-button, header .nav-user .nav-button a, .nav .nav-right a {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #2098f5;
+  border-color: #2098f5;
+  color: #ffffff;
+  transition: 320ms ease-out;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000330}}
+.reversed-button, .border-button {
+  border-width: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000335}}
+button:hover, button:focus, button:active, .button:hover, .button:focus, .button:active {
+  background-color: #0a7cd4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000340}}
+.reversed-button {
+  color: #2098f5;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000344}}
+.reversed-button:hover, .reversed-button:focus, .reversed-button:active {
+  color: #ffffff;
+  background-color: #0a7cd4;
+  border-color: #0a7cd4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000351}}
+.border-button {
+  border-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_button\.scss}line{font-family:\0000354}}
+.border-button:hover, .border-button:focus, .border-button:active {
+  color: #2098f5;
+  background-color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\000035}}
+html {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-stroke: 1px transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\0000310}}
+body {
+  color: #26272d;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  padding-top: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\0000316}}
+body .off-color {
+  background-color: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\0000322}}
+h1, h2, h3 {
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\0000326}}
+ul, ol, dl {
+  list-style-position: inside;
+  list-style-type: none;
+  margin-left: 0;
+  font: 400 14px/24px Roboto, Helvetica Neue, Helvetica, Arial;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_theme\.scss}line{font-family:\0000333}}
+.row {
+  padding: 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\000032}}
+header .nav-user {
+  display: inline-block;
+  position: relative;
+  float: right;
+  height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\000038}}
+header .nav-user a {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000310}}
+header .nav-user a img {
+  position: relative;
+  top: -2px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000315}}
+header .nav-user a img:hover {
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000322}}
+header .nav-user a:hover i {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000325}}
+header .nav-user a:hover img {
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000331}}
+header .nav-user a i {
+  display: inline-block;
+  position: relative;
+  height: 12px;
+  width: 12px;
+  margin-top: 22px;
+  background-size: 12px 12px;
+  opacity: 0.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000339}}
+header .nav-user a i.caret {
+  background: url(../img/registry/caret.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000344}}
+header .nav-user .nav-button {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000348}}
+header .nav-user .nav-button a {
+  color: #343434;
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 0px;
+  padding: 0 1.3em;
+  -webkit-border-radius: 0px;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  font: 400 15px/60px Lato, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000361}}
+header .nav-user .nav-button a:hover {
+  color: #ffffff;
+  background-color: #2098f5;
+  border-bottom: 2px solid #2098f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000365}}
+header .nav-user .nav-button a:hover i {
+  background-size: 17px 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000367}}
+header .nav-user .nav-button a:hover i.nav-download {
+  background: url(../img/download-brackets-active.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000370}}
+header .nav-user .nav-button a:hover i.nav-login {
+  background: url(../img/nav-github-active.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000375}}
+header .nav-user .nav-button a i {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  top: 3px;
+  margin-right: 2px;
+  background-size: 17px 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000383}}
+header .nav-user .nav-button a i.nav-download {
+  background: url(../img/download-brackets.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000386}}
+header .nav-user .nav-button a i.nav-login {
+  background: url(../img/nav-github.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\0000392}}
+header .nav-user .nav-menu {
+  display: none;
+  position: relative;
+  z-index: 100;
+  width: 220px;
+  margin-left: -190px;
+  background-color: rgba(255, 255, 255, 0.92);
+  background-clip: padding-box;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003103}}
+header .nav-user .nav-menu::after {
+  top: -14px;
+  right: 10px;
+  left: auto;
+  border: 7px solid transparent;
+  border-bottom-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003110}}
+header .nav-user .nav-menu::before, header .nav-user .nav-menu::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003116}}
+header .nav-user .nav-menu::before {
+  top: -16px;
+  right: 9px;
+  left: auto;
+  border: 8px solid transparent;
+  border-bottom-color: rgba(27, 31, 35, 0.15);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003123}}
+header .nav-user .nav-menu a {
+  display: block;
+  position: relative;
+  margin: 5px 0px 5px 0px;
+  padding: 5px 5px 5px 10px;
+  font: 400 14px/20px Lato, sans-serif;
+  text-align: left;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003131}}
+header .nav-user .nav-menu a:hover {
+  color: #ffffff;
+  background-color: #2098f5;
+  border-bottom: 2px solid #2098f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003136}}
+header .nav-user .nav-menu a::after {
+  border-bottom: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003140}}
+header .nav-user .nav-menu p {
+  display: block;
+  position: relative;
+  margin: 5px 0px 5px 0px;
+  padding: 5px 5px 5px 10px;
+  font: 400 14px/20px Lato, sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  color: #5f6569;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003149}}
+header .nav-user .nav-menu p span {
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003153}}
+header .nav-user .nav-menu .divider {
+  display: block;
+  height: 1px;
+  margin: 4px 1px;
+  background-color: rgba(27, 31, 35, 0.15);
+}
+@supports (-ms-ime-align: auto) {
+  /* line 2, ../scss/_dropdown.scss */
+  header .nav-user {
+    /* Edge support */
+  }
+  /* line 162, ../scss/_dropdown.scss */
+  header .nav-user .nav-menu {
+    top: -62px;
+  }
+  /* line 166, ../scss/_dropdown.scss */
+  header .nav-user a i.caret {
+    top: -60px;
+    left: 30px;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\000032}}
+  header .nav-user {
+    /* IE10 & IE11 Support */
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003175}}
+  header .nav-user .nav-menu {
+    top: -62px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_dropdown\.scss}line{font-family:\00003179}}
+  header .nav-user a i.caret {
+    top: -60px;
+    left: 30px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\000033}}
+header {
+  background: rgba(255, 255, 255, 0.92);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 62px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000314}}
+header a {
+  color: #000000;
+  font: 400 15px/60px Lato, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000318}}
+header .column,
+header .columns {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000325}}
+.header-margin {
+  background: transparent;
+  display: block;
+  width: 100%;
+  height: 62px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000332}}
+.logo {
+  display: inline-block;
+  position: absolute;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000336}}
+.logo:hover {
+  -webkit-filter: hue-rotate(360deg);
+  filter: hue-rotate(360deg);
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  transition: all 3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000343}}
+.logo i {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  height: 20px;
+  width: 20px;
+  margin: 0 7px 0 0;
+  background: url(../img/brackets-logo.svg) no-repeat 0 0;
+  background-size: 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000353}}
+.logo a {
+  color: #000000;
+  font: 500 19px/60px Lato, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000359}}
+.divider {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000364}}
+.nav .nav-divider {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000367}}
+.nav .nav-center {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  width: 506px;
+  margin-left: -250px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000373}}
+.nav .nav-center a {
+  font: 400 15px/60px Lato, sans-serif;
+  color: #000000;
+  margin: 0 20px;
+  position: relative;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000379}}
+.nav .nav-center a:hover {
+  color: #343434;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000382}}
+.nav .nav-center a:active {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\0000385}}
+.nav .nav-center a::after {
+  content: '';
+  position: relative;
+  display: block;
+  border-bottom: 2px solid #000000;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 100%;
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003100}}
+.nav .nav-center a:hover:after {
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003109}}
+.nav .nav-right {
+  display: none;
+  position: relative;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003113}}
+.nav .nav-right a {
+  color: #343434;
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 0px;
+  padding: 0 1.3em;
+  -webkit-border-radius: 0px;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  font: 400 15px/60px Lato, sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003126}}
+.nav .nav-right a:hover {
+  color: #ffffff;
+  background-color: #2098f5;
+  border-bottom: 2px solid #2098f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003130}}
+.nav .nav-right a:hover i {
+  background-size: 17px 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003132}}
+.nav .nav-right a:hover i.nav-download {
+  background: url(../img/download-brackets-active.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003135}}
+.nav .nav-right a:hover i.nav-login {
+  background: url(../img/nav-github-active.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003140}}
+.nav .nav-right a i {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  top: 3px;
+  margin-right: 2px;
+  background-size: 17px 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003148}}
+.nav .nav-right a i.nav-download {
+  background: url(../img/download-brackets.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003151}}
+.nav .nav-right a i.nav-login {
+  background: url(../img/nav-github.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003157}}
+.nav .nav-icons {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003161}}
+.nav .nav-icons a {
+  position: relative;
+  display: inline-block;
+  line-height: 60px;
+  font-size: 0;
+  margin: 0 5px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003168}}
+.nav .nav-icons a:hover i {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003172}}
+.nav .nav-icons a i {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  margin-top: 22px;
+  background-size: 17px 17px;
+  opacity: 0.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003180}}
+.nav .nav-icons a i.help {
+  background: url(../img/registry/help.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003183}}
+.nav .nav-icons a i.rss {
+  background: url(../img/registry/rss.svg) no-repeat 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003191}}
+.collapsed-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003196}}
+  .divider {
+    display: block;
+    height: 1px;
+    margin: 4px 1px;
+    background-color: rgba(27, 31, 35, 0.15);
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003202}}
+  .collapsed-menu {
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding-right: 0.25em;
+    height: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003208}}
+  .collapsed-menu a {
+    position: relative;
+    display: inline-block;
+    line-height: 60px;
+    overflow: hidden;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003214}}
+  .collapsed-menu a:hover i {
+    opacity: 1;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003218}}
+  .collapsed-menu a i {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    opacity: 0.4;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003226}}
+  .collapsed-menu a i.hamburger {
+    background: url(../img/hamburger.svg) no-repeat 0 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003232}}
+  .nav {
+    display: none;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    z-index: 100;
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.92);
+    background-clip: padding-box;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003244}}
+  .nav::after {
+    top: -14px;
+    right: 10px;
+    left: auto;
+    border: 7px solid transparent;
+    border-bottom-color: #ffffff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003251}}
+  .nav::before, .nav::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003257}}
+  .nav::before {
+    top: -16px;
+    right: 9px;
+    left: auto;
+    border: 8px solid transparent;
+    border-bottom-color: rgba(27, 31, 35, 0.15);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003264}}
+  .nav .nav-right {
+    display: none;
+    position: relative;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003268}}
+  .nav .nav-right a {
+    display: block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 10px;
+    font: 400 14px/20px Lato, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003276}}
+  .nav .nav-right a i {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003281}}
+  .nav .nav-icons {
+    display: block;
+    position: relative;
+    float: none;
+    margin: unset;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003286}}
+  .nav .nav-icons a {
+    display: block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 10px;
+    font: 400 14px/20px Lato, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003294}}
+  .nav .nav-icons a:hover {
+    color: #ffffff;
+    background-color: #2098f5;
+    border-bottom: 2px solid #2098f5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003299}}
+  .nav .nav-icons a::after {
+    border-bottom: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003302}}
+  .nav .nav-icons a i {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003307}}
+  .nav .nav-center {
+    display: block;
+    position: relative;
+    left: unset;
+    width: unset;
+    margin-left: unset;
+    margin-bottom: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003314}}
+  .nav .nav-center a {
+    display: block;
+    position: relative;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 10px;
+    font: 400 14px/20px Lato, sans-serif;
+    text-align: left;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003322}}
+  .nav .nav-center a:hover {
+    color: #ffffff;
+    background-color: #2098f5;
+    border-bottom: 2px solid #2098f5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003327}}
+  .nav .nav-center a::after {
+    border-bottom: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003332}}
+  .nav .nav-divider {
+    display: block;
+    height: 1px;
+    margin: 4px 1px;
+    background-color: rgba(27, 31, 35, 0.15);
+  }
+}
+@media only screen and (max-width: 940px) and (-ms-high-contrast: none), only screen and (max-width: 940px) and (-ms-high-contrast: active) {
+  /* IE10 & IE11 CSS support */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_header\.scss}line{font-family:\00003343}}
+  .nav .nav-center {
+    left: 0px;
+    margin-left: 0px;
+    width: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000315}}
+footer {
+  background-color: #47464b;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000319}}
+footer a {
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000321}}
+footer a:hover {
+  color: #2098f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000324}}
+footer a:focus {
+  color: #2098f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000328}}
+footer ul {
+  color: #5f6569;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000331}}
+footer h5 {
+  color: #ffffff;
+  font: 300 16px/28px Roboto, Helvetica Neue, Helvetica, Arial;
+  margin-bottom: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000336}}
+footer p {
+  color: #ffffff;
+  font: 400 14px/18px Roboto, Helvetica Neue, Helvetica, Arial;
+  padding: 4px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000341}}
+footer .column,
+footer .columns {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000349}}
+.logo-footer i {
+  background: url(../img/brackets-logo.svg) no-repeat 0 0;
+  background-size: 15px 15px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 7px 0 0;
+  position: relative;
+  top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000359}}
+.logo-footer:hover {
+  -webkit-filter: hue-rotate(360deg);
+  filter: hue-rotate(360deg);
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  transition: all 3s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000368}}
+#footer-desc {
+  padding-right: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000372}}
+.icons-footer {
+  padding: 0;
+  margin: 10px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000376}}
+.icons-footer a i {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\000037}}
+.icons-footer a i.github {
+  width: 40px;
+  height: 40px;
+  background: url(../img/github.svg) no-repeat 0 0;
+  background-size: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\000037}}
+.icons-footer a i.twitter {
+  width: 40px;
+  height: 40px;
+  background: url(../img/twitter.svg) no-repeat 0 0;
+  background-size: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\000037}}
+.icons-footer a i.googleplus {
+  width: 40px;
+  height: 40px;
+  background: url(../img/googleplus.svg) no-repeat 0 0;
+  background-size: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\000037}}
+.icons-footer a i.facebook {
+  width: 40px;
+  height: 40px;
+  background: url(../img/facebook.svg) no-repeat 0 0;
+  background-size: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000386}}
+.icons-footer div {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000388}}
+.icons-footer div .icon-holder {
+  position: absolute;
+  left: 50%;
+  width: 220px;
+  height: 40px;
+  margin-left: -110px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\0000398}}
+.about-footer {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\00003101}}
+.about-footer div {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\00003103}}
+.about-footer div p {
+  position: relative;
+  left: 50%;
+  width: 174px;
+  height: 22px;
+  margin-left: -86px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\00003109}}
+.about-footer div p span {
+  color: #838383;
+  font: 400 13px/20px Lato, sans-serif;
+  float: left;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\00003116}}
+.about-footer div p i {
+  float: left;
+  position: relative;
+  margin-top: 2px;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_footer\.scss}line{font-family:\000037}}
+.about-footer div p i.adobe-logo {
+  width: 20px;
+  height: 20px;
+  background: url(../img/adobe-logo.svg) no-repeat 0 0;
+  background-size: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\000031}}
+#banner {
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\000035}}
+#banner-wrapper {
+  background: #2098f5;
+  color: #ffffff;
+  padding: 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000311}}
+.banner-text {
+  display: inline-block;
+  font: 400 16px Roboto, Helvetica Neue, Helvetica, Arial;
+  line-height: 1.5em;
+  margin: 0 1em 0.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000318}}
+#hero-wrapper {
+  background-color: none;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000324}}
+#hero h1 {
+  color: #343434;
+  font: 300 32px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000330}}
+#hero h1 i {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000331}}
+#hero h1 i.error {
+  display: block;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  top: 3px;
+  left: 50%;
+  margin-left: -40px;
+  background-size: 50px 50px;
+  background: url(../img/404.svg) no-repeat 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000345}}
+#hero h2 {
+  color: #343434;
+  font: 500 20px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  margin: 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000351}}
+#hero p {
+  color: #343434;
+  font: 300 24px/36px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000358}}
+#hero h2.light-weight {
+  font: 300 20px/32px Roboto, Helvetica Neue, Helvetica, Arial;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000363}}
+.back-bar {
+  content: '';
+  position: relative;
+  width: 100%;
+  background: #2098f5;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+  box-shadow: 0 6px 5px -5px rgba(0, 0, 0, 0.3);
+  background: -webkit-linear-gradient(#ffffff 25%, rgba(0, 0, 0, 0.1) 26%, #2098f5 26%);
+  background: -o-linear-gradient(#ffffff 25%, rgba(0, 0, 0, 0.1) 26%, #2098f5 26%);
+  background: -moz-linear-gradient(#ffffff 25%, rgba(0, 0, 0, 0.1) 26%, #2098f5 26%);
+  background: linear-gradient(#ffffff 25%, rgba(0, 0, 0, 0.1) 26%, #2098f5 26%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000375}}
+.back-bar #back-bar-img {
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  width: 1059px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000383}}
+#sub-hero-wrapper {
+  padding: 20px 0 40px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000386}}
+#sub-hero-wrapper h2 {
+  font: 400 20px Roboto, Helvetica Neue, Helvetica, Arial;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000390}}
+#sub-hero-wrapper .button.secondary {
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000393}}
+#sub-hero-wrapper.contribute-wrapper {
+  padding: 40px 0 40px;
+  background-color: #2098f5 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\0000397}}
+#sub-hero-wrapper.contribute-wrapper .sub-intro h3 {
+  color: #ffffff !important;
+  text-align: left !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003101}}
+#sub-hero-wrapper.contribute-wrapper .sub-intro p {
+  color: #ffffff !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003109}}
+.intro p {
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003118}}
+.intro h1 {
+  color: #ffffff;
+  font: 300 32px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003126}}
+.sub-intro h1 {
+  color: #26272d;
+  font: 300 32px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+  line-height: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003132}}
+.sub-intro p {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 auto 10px;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003141}}
+.sub-intro h3 {
+  color: #26272d;
+  font: 300 24px/30px Roboto, Helvetica Neue, Helvetica, Arial;
+  margin: 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003149}}
+#details-wrapper {
+  padding: 50px 0 50px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003151}}
+#details-wrapper h2 {
+  margin: 0;
+  font: 300 20px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003156}}
+#details-wrapper p {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 250;
+  line-height: 24px;
+  margin: 20px auto 10px;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003165}}
+#details-wrapper img {
+  float: left;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003170}}
+#details-wrapper.landing {
+  box-shadow: 1px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003175}}
+#content-wrapper3 {
+  padding: 50px 0 50px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003177}}
+#content-wrapper3 h1 {
+  color: #26272d;
+  font: 300 32px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003183}}
+#content-wrapper3 h2 {
+  padding: 0;
+  margin: 0;
+  color: #2098f5;
+  font: 400 20px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003190}}
+#content-wrapper3 p {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 12px auto 10px;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003199}}
+#content-wrapper3.landing {
+  box-shadow: 1px -1px 0px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003202}}
+#content-wrapper3.help-registry {
+  padding: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003205}}
+#content-wrapper3.upload-registry {
+  padding: 40px 0 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003210}}
+#contributors {
+  overflow: hidden;
+  margin: 40px 0 50px 0;
+  -webkit-animation: loading 2s cubic-bezier(1, -0.04, 0.99, 0.88);
+  animation: loading 2s cubic-bezier(1, -0.04, 0.99, 0.88);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003215}}
+#contributors a {
+  float: left;
+  height: 56px;
+  width: 56px;
+  -webkit-filter: saturate(96%) opacity(69%);
+  filter: saturate(96%) opacity(69%);
+  -webkit-transition: 220ms;
+  transition: 220ms;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003223}}
+#contributors a:hover {
+  -webkit-filter: saturate(100%) opacity(100%);
+  filter: saturate(100%) opacity(100%);
+}
+
+@-webkit-keyframes loading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes loading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003249}}
+#content-wrapper1 .box {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003257}}
+#content-wrapper1 .box p {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  padding: 0 5px;
+  margin: 0;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003267}}
+#content-wrapper1 .box h3 {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 5px;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003277}}
+#content-wrapper1 h1 {
+  color: #26272d;
+  font: 300 32px/56px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  line-height: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003284}}
+#content-wrapper1 h2 {
+  padding: 5px;
+  margin-bottom: 0 !important;
+  color: #2098f5;
+  font: 400 20px Roboto, Helvetica Neue, Helvetica, Arial;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003291}}
+#content-wrapper1 p {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 12px auto 10px;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003301}}
+#content-wrapper1.contribute-wrapper .box {
+  min-height: 6em;
+  overflow: hidden;
+  margin-right: 8px;
+  margin-top: 8px;
+  height: auto !important;
+  margin: 10px !important;
+  padding: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003309}}
+#content-wrapper1.contribute-wrapper .box p {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003314}}
+#content-wrapper1.contribute-wrapper .box:hover {
+  -webkit-box-shadow: 0 0 5px 0 rgba(32, 152, 245, 0.7);
+  -moz-box-shadow: 0 0 5px 0 rgba(32, 152, 245, 0.7);
+  box-shadow: 0 0 5px 0 rgba(32, 152, 245, 0.7);
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  transition: 500ms;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003323}}
+#content-wrapper1.contribute-wrapper h2 {
+  font: 400 16px Lato, sans-serif;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003328}}
+#content-wrapper1.contribute-wrapper h1 {
+  font-weight: 400;
+  float: left;
+  padding-right: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003338}}
+.contribute-wrapper .sub-intro p {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_sections\.scss}line{font-family:\00003344}}
+.contribute-img {
+  padding: 2px;
+  width: auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\000031}}
+.reveal-modal {
+  display: none;
+  background: #ffffff;
+  top: 100px;
+  position: absolute;
+  z-index: 101;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 30px 40px 10px;
+  left: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\0000315}}
+.reveal-modal.fixed-width {
+  width: 520px;
+  margin-left: -260px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\0000319}}
+.reveal-modal .close-reveal-modal {
+  font-size: 22px;
+  line-height: .5;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #26272d;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\0000330}}
+.reveal-modal h2 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\0000335}}
+.reveal-modal h2 a {
+  color: #2098f5;
+  font: 400 24px/30px Lato, sans-serif;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_reveal\.scss}line{font-family:\0000343}}
+.reveal-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_spinner\.scss}line{font-family:\000031}}
+.spinner:before, .spinner:after {
+  border-left: 11px solid #2098f5;
+  border-right: 11px solid #2098f5;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_spinner\.scss}line{font-family:\0000313}}
+.spinner {
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border-left: 15px solid #2098f5;
+  border-right: 15px solid #2098f5;
+  overflow: hidden;
+  position: relative;
+  left: 2em;
+  margin-bottom: 2em;
+  opacity: 0.36;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_spinner\.scss}line{font-family:\0000326}}
+.spinner:before {
+  top: 0;
+  left: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_spinner\.scss}line{font-family:\0000331}}
+.spinner:after {
+  bottom: 0;
+  left: -1px;
+}
+
+@-webkit-keyframes rotateplane {
+  0% {
+    -webkit-transform: perspective(120px);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+  }
+}
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\000033}}
+.anchor-div {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\000035}}
+.anchor-div p {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\000038}}
+.anchor-div p > a {
+  font-size: 15px;
+  color: #2098f5;
+  font-family: Lato, sans-serif;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000313}}
+.anchor-div p > a:last-child {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000320}}
+#os-alert {
+  display: none;
+  border: 2px solid #cccccc;
+  border-radius: 3px;
+  padding: 15px 20px;
+  width: 350px;
+  max-width: 100%;
+  background-color: transparent;
+  font-size: 15px;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000332}}
+.last-row {
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000336}}
+.on-white {
+  color: #8a8b8c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000340}}
+.optionstxt {
+  font-size: 1.3em;
+  color: #ffffff;
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+  line-height: 28px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000349}}
+.img-shadow {
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000357}}
+.img-radius {
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border: 0 solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000365}}
+.img-radius-hero {
+  border-radius: 3px 3px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000369}}
+.scroll-pad {
+  padding-top: 62px;
+  margin-top: -62px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000374}}
+.slim-button {
+  margin: 1.25rem 0 0;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000379}}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80em;
+  margin: 0px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000387}}
+.post-date {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000392}}
+p.center-button {
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\0000397}}
+.background-body {
+  background-color: #f9f9f9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003101}}
+.top-bottom-margin {
+  margin: 50px 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003105}}
+.top-bottom-padding {
+  padding: 50px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003109}}
+.bottom-padding {
+  padding: 0 0 50px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003113}}
+.padding-none {
+  padding: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003117}}
+.padding-alt {
+  padding: 0 12px 0 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_utils\.scss}line{font-family:\00003121}}
+.center-align {
+  margin: 0 auto;
+}
+
+/* Incremental BreakPoints */
+@media only screen and (max-width: 940px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000315}}
+  #hero-wrapper #hero h1 {
+    font-size: 28px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000318}}
+  #hero-wrapper #hero h2 {
+    font-size: 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000321}}
+  #hero-wrapper #hero a,
+  #hero-wrapper #hero p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000326}}
+  #hero-wrapper #hero #contributors a {
+    width: 48px;
+    height: 48px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000334}}
+  .back-bar #back-bar-img {
+    width: 80%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000339}}
+  .back-bar #sub-hero-wrapper .intro p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000345}}
+  .back-bar #sub-hero-wrapper.contribute-wrapper .sub-intro h3 {
+    font-size: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000348}}
+  .back-bar #sub-hero-wrapper.contribute-wrapper .sub-intro p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000354}}
+  .back-bar #sub-hero-wrapper .last-row img {
+    width: 60px;
+    height: 60px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000358}}
+  .back-bar #sub-hero-wrapper .last-row h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000362}}
+  .back-bar #sub-hero-wrapper .last-row a {
+    font-size: 14px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000371}}
+  #sub .sub-intro > div > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000376}}
+  #sub .sub-intro h1 {
+    font-size: 28px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000379}}
+  #sub .sub-intro p {
+    font-size: 14px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000386}}
+  #details #details-wrapper .row > div {
+    padding: 10px 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000389}}
+  #details #details-wrapper h2 {
+    font-size: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000392}}
+  #details #details-wrapper p {
+    font-size: 14px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\0000398}}
+  #content-wrapper3 .row > div {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003101}}
+  #content-wrapper3 h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003105}}
+  #content-wrapper3 h2 {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003109}}
+  #content-wrapper3 p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003112}}
+  #content-wrapper3 a.button {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003122}}
+  .contribute-wrapper .sub-intro h3 {
+    font-size: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003125}}
+  .contribute-wrapper .sub-intro p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003128}}
+  .contribute-wrapper .sub-intro a {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003136}}
+  .contribute-wrapper #content h1 {
+    font-size: 28px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003139}}
+  .contribute-wrapper #content p {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003143}}
+  .contribute-wrapper #content .box a {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003146}}
+  .contribute-wrapper #content .box p {
+    font-size: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003150}}
+  .contribute-wrapper #content a {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003164}}
+  #hero-wrapper #hero #contributors a {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media only screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003177}}
+  #hero-wrapper #hero .anchor-div a {
+    margin: 10px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003182}}
+  #hero-wrapper #hero #contributors a {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003194}}
+  #hero-wrapper #hero h1 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003198}}
+  #hero-wrapper #hero h2 {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003201}}
+  #hero-wrapper #hero a,
+  #hero-wrapper #hero p {
+    font-size: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003206}}
+  #hero-wrapper #hero #contributors a {
+    width: 20px;
+    height: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003213}}
+  .back-bar {
+    background: #2098f5;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003214}}
+  .back-bar #back-bar-img {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003220}}
+  .back-bar #sub-hero-wrapper .intro p {
+    font-size: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003225}}
+  .back-bar #sub-hero-wrapper .last-row img {
+    width: 40px;
+    height: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003229}}
+  .back-bar #sub-hero-wrapper .last-row h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003233}}
+  .back-bar #sub-hero-wrapper .last-row a {
+    font-size: 12px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003242}}
+  #sub .sub-intro > div > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003247}}
+  #sub .sub-intro h1 {
+    font-size: 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003250}}
+  #sub .sub-intro p {
+    font-size: 12px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003257}}
+  #details #details-wrapper .row > div {
+    padding: 10px 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003260}}
+  #details #details-wrapper h2 {
+    font-size: 14px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003263}}
+  #details #details-wrapper p {
+    font-size: 12px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003269}}
+  #content-wrapper3 .row > div {
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003272}}
+  #content-wrapper3 h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003276}}
+  #content-wrapper3 h2 {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003280}}
+  #content-wrapper3 p {
+    font-size: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003283}}
+  #content-wrapper3 a.button {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media only screen and (max-width: 380px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003295}}
+  header .nav-user .nav-button {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_media\.scss}line{font-family:\00003300}}
+  header .nav .nav-right {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_placeholders\.scss}line{font-family:\000031}}
+.dropzone, .dropzone *, .dropzone-previews, .dropzone-previews * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_placeholders\.scss}line{font-family:\000037}}
+.dropzone .preview, .dropzone-previews .preview {
+  background: rgba(255, 255, 255, 0.8);
+  position: relative;
+  display: block;
+  margin: 16px;
+  padding: 8px;
+  border: 1px solid #acacac;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_placeholders\.scss}line{font-family:\0000317}}
+.dropzone .preview .success-mark, .dropzone .preview .error-mark, .dropzone-previews .preview .success-mark, .dropzone-previews .preview .error-mark {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  right: -10px;
+  top: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_placeholders\.scss}line{font-family:\0000328}}
+.dropzone .preview .progress, .dropzone-previews .preview .progress {
+  clear: both;
+  background: #d7d7d7;
+  display: none;
+  height: 15px;
+  border-radius: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_placeholders\.scss}line{font-family:\0000338}}
+.dropzone .preview .progress .upload, .dropzone-previews .preview .progress .upload {
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #8cc657;
+}
+
+/* Based on code from https://github.com/enyo/dropzone. See https://github.com/enyo/dropzone/blob/master/readme.md for license information. */
+/* The MIT License */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\000033}}
+.dropzone {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: url(../img/registry/brackets-gray.svg) 50% 50% no-repeat, rgba(0, 0, 0, 0.02);
+  padding: 1em;
+  width: 400px;
+  min-height: 200px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000315}}
+.dropzone.clickable {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000317}}
+.dropzone.clickable .message {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000319}}
+.dropzone.clickable .message span {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000323}}
+.dropzone.clickable * {
+  cursor: default;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000327}}
+.dropzone .message {
+  font-family: Lato;
+  color: #666666;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000334}}
+.dropzone.drag-hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.04);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000341}}
+.dropzone .preview .details .filename {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000344}}
+.dropzone .preview .details img {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000347}}
+.dropzone .preview .details .size {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000352}}
+.dropzone .preview.error .error-mark {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000355}}
+.dropzone .preview.error .error-message {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000358}}
+.dropzone .preview.error .progress .upload {
+  background-color: #f00000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000363}}
+.dropzone .preview.success .success-mark {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000366}}
+.dropzone .preview.success .success-message {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000370}}
+.dropzone .preview .success-mark {
+  color: #8cc657;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000374}}
+.dropzone .preview .error-mark {
+  color: #ee162d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000384}}
+.dropzone .preview .error-message {
+  clear: both;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000388}}
+.dropzone .preview .success-message {
+  clear: both;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000392}}
+.dropzone .preview.processing .progress {
+  display: inline-block;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\0000397}}
+.dropzone.started .message {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003109}}
+.dropzone-previews .preview .details .filename {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003112}}
+.dropzone-previews .preview .details img {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003115}}
+.dropzone-previews .preview .details .size {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003120}}
+.dropzone-previews .preview.error .error-mark {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003123}}
+.dropzone-previews .preview.error .error-message {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003126}}
+.dropzone-previews .preview.error .progress .upload {
+  background-color: #f00000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003131}}
+.dropzone-previews .preview.success .success-mark {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003134}}
+.dropzone-previews .preview.success .success-message {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003138}}
+.dropzone-previews .preview .success-mark {
+  color: #8cc657;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003142}}
+.dropzone-previews .preview .error-mark {
+  color: #ee162d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003152}}
+.dropzone-previews .preview .error-message {
+  clear: both;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003156}}
+.dropzone-previews .preview .success-message {
+  clear: both;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry_dropzone\.scss}line{font-family:\00003160}}
+.dropzone-previews .preview.processing .progress {
+  display: inline-block;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\000033}}
+.admin {
+  clear: both;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  margin: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000314}}
+#content-wrapper1.reg-box .box {
+  margin: 8px 4px 0 !important;
+  height: 9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000317}}
+#content-wrapper1.reg-box .box .description {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 0;
+  color: #26272d;
+  text-rendering: optimizeLegibility;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  height: 1.2em;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000332}}
+#content-wrapper1.reg-box h2 a {
+  color: #2098f5;
+  text-rendering: optimizeLegibility;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000338}}
+#content-wrapper1 .category h1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000346}}
+.divbox1 {
+  width: 80%;
+  float: left;
+  margin-top: 5px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000350}}
+.divbox1#fourth {
+  margin-top: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000355}}
+.divbox2 {
+  width: 12%;
+  float: right;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000359}}
+.divbox2 img {
+  position: relative;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000365}}
+.divbox2 img#d-icon {
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000372}}
+.dropzone {
+  margin: 20px auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000376}}
+ul.ext-keywords {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 3px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000382}}
+ul.ext-keywords li {
+  padding: 2px 4px;
+  list-style-type: none;
+  display: inline;
+  border-radius: 3px;
+  border: 1px solid #efeae1;
+  background-color: #f8f6f2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000389}}
+ul.ext-keywords li a {
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\0000396}}
+.info h2,
+.info h3 {
+  font-family: Lato, sans-serif !important;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\00003102}}
+.info input {
+  margin-top: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\00003109}}
+.info input:hover, .info input:focus, .info input:active {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px #2098f5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/website\/redo\/brackets\.io\/scss\/_registry\.scss}line{font-family:\00003119}}
+.extension-list [class*="column"] + [class*="column"]:last-child {
+  float: left;
+}
+
+/*# sourceMappingURL=brackets.css.map */
