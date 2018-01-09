@@ -1,31 +1,29 @@
 $(document).ready(function () {
-    $('.hamburger').on('click touchstart', function (e) {
-        $('.nav').toggle();
+    $('.hamburger').on('click', function (e) {
+        $('.nav').show();
         e.stopPropagation();
     });
     
-    $('#user').on('click touchstart', function (e) {
-        $('.nav-menu').toggle();
+    $('#user').on('click', function (e) {
+        $('.nav-menu').show();
         e.stopPropagation();
     });
     
-    $('html').on('click touchstart', function () {
-        if ($(window).width() <= 940) {
+    $('html').on('click', function () {
+        if ($(window).width() <= 980) {
             $('.nav').hide();
-        } else {
-            $('.nav').show();
         }
         
         $('.nav-menu').hide();
     })
     
     $(window).bind('resize', function () {
-        if ($(window).width() > 900) {
-            $('.nav').show();
+        if ($(window).width() > 980) {
+            $('.nav').attr('style', '');
         }
     });
     
-    $('.nav, .nav-menu').on('click touchstart', function (e) {
+    $('.nav, .nav-menu').on('click', function (e) {
         e.stopPropagation();
     });
 });

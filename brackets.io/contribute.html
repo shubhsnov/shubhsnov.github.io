@@ -79,12 +79,12 @@
                 <div class="logo">
                     <a href="index.html"><i></i>Brackets</a>
                 </div>
-
+                
                 <div class="nav">
-                    <div class="nav-right">
-                        <a title="Download latest Brackets" id="download-plain-brackets" class="action-download-brackets" href="#">
+                    <div class="nav-right hide-mobile">
+                        <a title="Download" id="download-plain-brackets" class="action-download-brackets" href="#">
                             <i class="nav-download"></i>
-                            <span data-i18n="[html]index.page.hero.download">Download
+                            <span>Download
                         </span>
                         </a>
                         <div class="divider"></div>
@@ -92,21 +92,21 @@
                     <div class="nav-center">
                         <a href="contribute.html" class="contribute" data-i18n="nav.contribute">Contribute</a>
                         <a href="docs/current/modules/brackets.html" data-i18n="nav.apidocs">API Docs</a>
-                        <a href="https://registry.brackets.io" data-i18n="">Extensions</a>
+                        <a href="https://54.245.134.35/" data-i18n="">Extensions</a>
                         <a href="http://blog.brackets.io" data-i18n="nav.blog">Blog</a>
                         <a href="https://github.com/adobe/brackets/wiki/Troubleshooting" data-i18n="nav.support">Support</a>
                     </div>
                 </div>
-
+                
                 <div class="collapsed-menu">
                     <a><i class="hamburger"></i></a>
                 </div>
-
+                
                 <div class="nav-user">
-                    <div class="nav-button">
-                        <a title="Download latest Brackets" id="download-plain-brackets" class="action-download-brackets" href="#">
+                    <div class="nav-button hide-mobile">
+                        <a title="Download" id="download-plain-brackets" class="action-download-brackets" href="#">
                             <i class="nav-download"></i>
-                            <span data-i18n="[html]index.page.hero.download">Download
+                            <span>Download
                         </span>
                         </a>
                     </div>
@@ -464,7 +464,10 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
-
+        
+        if (/iPad|iPod|iPhone|Android/.test(navigator.userAgent)) {
+            $(".hide-mobile").hide();
+        }
     </script>
 </body>
 
