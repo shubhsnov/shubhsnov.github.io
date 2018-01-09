@@ -457,7 +457,7 @@
 
             $.ajax({
                     //                    url: "https://blog.brackets.io/feed/json",
-                    url: "http://blog.brackets.io/json",
+                    url: "http://54.245.134.35:8081/json",
                     dataType: "jsonp"
                 })
                 .always(function() {
@@ -483,7 +483,7 @@
 
                         $blogposts.append('<h2 class=\"text-center\"><a href="' + item.permalink + '">' +
                             item.title +
-                            '</a></h2>' + '<p>' + item.excerpt.substr(0, 150) + '[...]' + '</p><p class="post-date text-center">' +
+                            '</a></h2>' + '<p>' + item.excerpt.substr(0, 175) + '...' + '</p><p class="post-date text-center">' +
                             postingDate.toLocaleDateString(requestedLang, options) +
                             '</p>');
                     });
