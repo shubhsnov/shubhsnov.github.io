@@ -387,7 +387,7 @@
         // don't load starter issues or features on smartphones
         if (document.documentElement.clientWidth > 480) {
             // get starter issues from github
-            $.getJSON("https://api.github.com/repos/adobe/brackets/issues?labels=starter+bug&state=open&per_page=6").done(function(data) {
+            $.getJSON("https://api.github.com/repos/adobe/brackets/issues?labels=Starter+bug&state=open&per_page=6").done(function(data) {
                 i18nLoaded.done(function() {
                     // update issue list
                     var feature_content = "";
