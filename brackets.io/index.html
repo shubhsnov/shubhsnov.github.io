@@ -33,7 +33,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/brackets.css" />
+    <link rel="stylesheet" href="css/brackets.min.css" />
 
     <!-- Linked Favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
@@ -458,8 +458,7 @@
                 $blogposts = $("#blogposts");
 
             $.ajax({
-                    //                    url: "https://blog.brackets.io/feed/json",
-                    url: "http://54.245.134.35:8081/json",
+                    url: "https://blog.brackets.io/feed/json",
                     dataType: "jsonp"
                 })
                 .always(function() {
